@@ -4,6 +4,7 @@ import { useParams } from 'react-router';
 import axios from 'axios';
 import { useBaseUrl } from '../../contexts/EndpointContext';
 import Product from '../product/Product';
+import Loading from '../loading/Loading';
 
 function Products() {
   const params = useParams();
@@ -33,7 +34,7 @@ function Products() {
     <div className="products">
       {
         (loading)
-        ? <h2>Loading</h2>
+        ? <Loading />
         : products.map((product) => {
           return (
             <Product key={product.id} product={product} />

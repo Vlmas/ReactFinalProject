@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useBaseUrl } from '../../contexts/EndpointContext';
 import axios from 'axios';
 import './Categories.css';
+import Loading from '../loading/Loading';
 
 function Categories() {
   const [categories, setCategories] = useState([]);
@@ -32,7 +33,7 @@ function Categories() {
     <div className="cats">
       <h2>Categories</h2>
       {(loading)
-        ? <h2>Loading</h2>
+        ? <Loading />
         : categories.map((category, index) => {
           return (
             <div key={index}>
