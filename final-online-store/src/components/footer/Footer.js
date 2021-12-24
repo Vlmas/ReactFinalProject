@@ -1,6 +1,7 @@
 import './Footer.css';
 import logo from '../../assets/logo_light.png';
 import sm from '../../assets/sm.png';
+import React from 'react';
 
 function Footer() {
   return (
@@ -29,4 +30,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default React.memo(Footer);

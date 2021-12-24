@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 14px 120px;
+    padding: 1.4rem 12rem;
 }
 
 .footer h3, .footer h4, .footer p {
@@ -11,15 +11,27 @@
     font-weight: 200;
 }
 
+.footer h3 {
+    font-size: 1.5em;
+}
+
+.footer h4 {
+    font-size: 1.3em;
+}
+
+.footer p {
+    font-size: 1.2rem;
+}
+
 .footer-main-part {
     display: flex;
     flex-direction: column;
-    line-height: 28px;
+    line-height: 2.8rem;
 }
 
 .footer-secondary {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    line-height: 24px;
+    line-height: 2.4rem;
 }

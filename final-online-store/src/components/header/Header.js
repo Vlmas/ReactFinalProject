@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from '../../assets/logo_light.png';
+import React from 'react';
 
 function Header() {
   return (
@@ -36,4 +37,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default React.memo(Header);
