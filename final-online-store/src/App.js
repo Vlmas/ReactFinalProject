@@ -13,6 +13,7 @@ import Login from './components/login/Login';
 import Products from './components/products/Products';
 import ProductDetails from './components/product-details/ProductDetails';
 import NotFound from './components/not-found/NotFound';
+import Profile from './components/profile/Profile';
 
 function App() {
   const isAuthed = useAuth();
@@ -44,6 +45,8 @@ function App() {
               } />
 
               <Route path="/login" element={<Login />} />
+
+              <Route path="/profile" element={<Profile />} />
 
               <Route path="*" element={<NotFound />} />
             </Routes>

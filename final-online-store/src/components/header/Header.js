@@ -2,8 +2,11 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from '../../assets/logo_light.png';
 import React from 'react';
+import { useAuth } from '../../contexts/AuthContext';
 
 function Header() {
+  const isAuthed = useAuth();
+
   return (
     <header className="header">
       <ul>
@@ -29,7 +32,7 @@ function Header() {
       <div className="header-rightside">
         <Link className="link-deco" to="/cart">Cart</Link>
 
-        <Link className="link-deco" to="/login">
+        <Link className="link-deco" to={(isAuthed) ? "/profile" : "/login"}>
           <img src="https://cdn4.iconfinder.com/data/icons/app-seo-bolt-line/128/Bolt_Line_Mix_-04-256.png" width="44" alt="" />
         </Link>
       </div>

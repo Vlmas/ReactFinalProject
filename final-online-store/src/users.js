@@ -1,4 +1,4 @@
-export const users = [
+const users = [
   {
     userId: 1,
     name: 'Almas',
@@ -24,3 +24,5 @@ export const users = [
     cart: []
   }
 ];
+
+export default users;

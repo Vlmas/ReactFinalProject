@@ -1,0 +1,94 @@
+.container {
+    display:flex;
+    margin: 1%;
+    justify-content:space-around;
+}
+
+.main p {
+    font-size:1.7rem;
+    color:#333;
+    font-weight: 200;
+    line-height: 2.5rem;
+}
+
+.main h1, .main h3, .main h4 {
+    text-align: center;
+    color:#333;
+    font-weight: 600;
+}
+
+.main h1 {
+    font-size:2.5rem;
+}
+
+.main h3 {
+    font-size:2.2rem;
+}
+
+.main h4 {
+    font-size:2rem;
+}
+
+.members, .abProj, .sections{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #333;
+}
+
+.members {
+    width:60%;
+    margin-left:20%;
+    margin-bottom:1%;
+    margin-top:1%;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem #888888;
+}
+
+.abProj {
+    width:80%;
+    margin-left:10%;
+    margin-bottom:1%;
+    margin-top:1%;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem #888888;
+}
+
+.main {
+    margin: 0 0.5% .5% .5%;
+    padding-top:2%;
+}
+
+.members p, .abProj p, .sections p, .sections h3, .sections li {
+    font-size:2rem;
+    color:white;
+    margin-bottom:1%;
+}
+
+.sections {
+    border: 2px solid grey;
+    margin:2%;
+    padding:2%;
+    line-height:190%;
+}
+
+.team {
+    margin-top:1%;
+}
+
+.us {
+    padding-top:1%;
+}
+
+.abProj {
+    padding-left:2%;
+    padding-right:2%;
+    text-align: center;
+    margin-top:1%;
+    line-height:190%;
+}
+
+.logo {
+    width:20%;
+}
+
+.project {
+    margin-top:1%;
+}

@@ -1,7 +1,8 @@
-.Main-page-h3 a{
-    color: red;
+.Main-page-h3 a {
+    color: #333;
     text-decoration:none
 }
+
 .Category_list .topic-category {
-    font-size: 30px;
-  } 
+    font-size: 3rem;
+} 

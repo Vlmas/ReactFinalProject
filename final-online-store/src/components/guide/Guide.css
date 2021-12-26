@@ -1,0 +1,14 @@
+.buy {
+    width:10%;
+    margin-left:45%;
+    margin-bottom:1%;
+}
+
+.guide h1, .guide h2, .guide h3, .guide h4, .guide h5, .guide h6 {
+    font-weight: 600;
+}
+
+.guide p {
+    font-weight: 200;
+    line-height: 2.2rem;
+}
