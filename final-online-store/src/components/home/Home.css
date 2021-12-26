@@ -10,8 +10,18 @@
     flex-wrap: wrap;
     text-align: center;
     margin: 30px 5px 15px 5px;
+    padding: 10px;
     
 }
+.main-page h2,a{
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.main-page h4{
+    font-size:small;
+    color: rgb(1, 41, 218);
+}
+
 .text-center{
     color: rgb(0, 0, 0);
 }
