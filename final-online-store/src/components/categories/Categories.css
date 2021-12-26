@@ -1,0 +1,41 @@
+.cats-scroll {
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.cats-title {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 35px 0;
+    color: #333;
+}
+
+.cats-scroll h3 {
+    padding-right: 100px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.link-decor {
+    text-decoration: none;
+    color: #333;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+#cats-title:hover, .cats-scroll h3:hover {
+    opacity: 0.8;
+}
+
+.highlighted {
+    text-decoration: underline;
+    color: #bb3641;
+}

@@ -31,16 +31,20 @@ function Products() {
   }, [params.categoryName]);
 
   return (
-    <div className="products">
-      {
-        (loading)
-        ? <Loading />
-        : products.map((product) => {
-          return (
-            <Product key={product.id} product={product} />
-          );
-        })
-      }
+    <div className="products-wrapper">
+      <h3 className="products-path">Categories &#10140; {params.categoryName.charAt(0).toUpperCase() + params.categoryName.slice(1)}</h3>
+
+      <div className="products">
+        {
+          (loading)
+          ? <Loading />
+          : products.map((product) => {
+            return (
+              <Product key={product.id} product={product} />
+            );
+          })
+        }
+      </div>
     </div>
   );
 }

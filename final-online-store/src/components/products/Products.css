@@ -1,0 +1,14 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.products-path {
+    margin: 4rem 0 0 7.5rem;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #333;
+}
