@@ -1,8 +1,42 @@
-.Main-page-h3 a {
-    color: #333;
-    text-decoration:none
+.topic-category{
+    text-align:center;
+    font-size: 28px;
+    padding-top: 25px ;
+    font-weight: 500;
+}
+.main-page{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 30px 5px 15px 5px;
+    padding: 10px;
+    
+}
+.main-page h2,a{
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.main-page h4{
+    font-size:small;
+    color: rgb(1, 41, 218);
 }
 
-.Category_list .topic-category {
-    font-size: 3rem;
-} 
+.text-center{
+    color: rgb(0, 0, 0);
+}
+
+.Main-center{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Featured_brands{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.topic-interests{
+    font-size: large;
+    margin-left: 15px;
+    font-weight: 500;
+}
