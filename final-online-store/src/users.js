@@ -1,3 +1,7 @@
+import ph1 from './assets/Cap.jpg';
+import ph2 from './assets/Almabekov.jpg';
+import ph3 from './assets/Nurda.png';
+
 const users = [
   {
     userId: 1,
@@ -5,6 +9,7 @@ const users = [
     username: 'almas01',
     password: 'kbtudno',
     wallet: 2000,
+    image: ph1,
     cart: []
   },
   {
@@ -13,6 +18,7 @@ const users = [
     username: 'amir',
     password: 'kbtudno',
     wallet: 0,
+    image: ph2,
     cart: []
   },
   {
@@ -21,6 +27,7 @@ const users = [
     username: 'ktl',
     password: 'kbtudno',
     wallet: 2000,
+    image: ph3,
     cart: []
   }
 ];

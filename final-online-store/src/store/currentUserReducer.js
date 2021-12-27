@@ -4,6 +4,7 @@ const defaultState = {
   username: '',
   password: '',
   wallet: 0,
+  image: '',
   cart: []
 };
 
@@ -14,9 +15,9 @@ export const currentUserReducer = (state = defaultState, action) => {
     case 'ADD_PRODUCT':
       return {...state, cart: [...state.cart, action.payload]};
     case 'REMOVE_PRODUCT':
-      return state;
+      return {...state, cart: state.cart.filter((item) => item.id !== action.payload)};
     case 'BUY_PRODUCT':
-      return state;
+      return {...state, wallet: state.wallet - action.payload[1], cart: state.cart.filter((item) => item.id !== action.payload[0])};
     default:
       return state;
   }

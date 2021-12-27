@@ -6,8 +6,8 @@ import logo from '../../assets/logo_light.png';
 function Guide() {
   return (
     <div className="guide">
-      <h1 class="us" style={{textAlign: 'center'}}>Site Funcionality</h1>
-      <h3 style={{textAlign: 'center'}}>A short guide that will help you use our application efficiently and without problems and achieve what you want</h3>
+      <h1 class="us" style={{textAlign: 'center'}}>Site Functionality</h1>
+      <h3 style={{textAlign: 'center'}}>A short guide that will help you to use our application efficiently and without any problems and achieve what you want</h3>
 
       <div class="sections">
         <h3>Do you want to order a product?</h3>

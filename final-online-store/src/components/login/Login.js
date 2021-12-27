@@ -36,7 +36,7 @@ function Login() {
           succeed = true;
           setAlert(false);
           setIsAuthed(true);
-          dispatch({ type: 'SET_USER', payload: { ...user, cart: [1, 2, 3] } });
+          dispatch({ type: 'SET_USER', payload: { ...user } });
           navigate(-1);
         }
       }
@@ -44,6 +44,7 @@ function Login() {
     if (!succeed) {
       setIsAuthed(false);
       setAlert(true);
+      setTimeout(() => setAlert(false), 3000);
     }
   };
 
@@ -63,8 +64,10 @@ function Login() {
     <div className='login'>
       {(!isAuthed) && (
         <div className="not-logged">
+          <h3 style={{textAlign: 'center'}}>You are not logged in. Please log in to continue</h3>
+
           <div className="form-container">
-            <div className="input-fields">
+            <div className="input-fields" style={{marginBottom: '1.5rem'}}>
               <div>
                 <label htmlFor="username-input">Username</label>
                 <input type="text" name="username-input" id="username-input" value={username} onChange={handleInput} />
@@ -77,11 +80,11 @@ function Login() {
                 <input type="password" name="password-input" id="password-input" value={password} onChange={handleInput} />
               </div>
             </div>
-          </div>
 
-          <div className="form-buttons">
-            <button onClick={handleSubmit}>Continue</button>
-            <button onClick={handleRegister}>Register</button>
+            <div className="form-buttons">
+              <button style={{marginRight: '1.5rem'}} onClick={handleSubmit}>Continue</button>
+              <button onClick={handleRegister}>Register</button>
+            </div>
           </div>
 
           {alert && (
