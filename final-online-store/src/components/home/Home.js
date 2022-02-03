@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className='Main-page p-5'>
       <div className='Category_list'>
-        <h2 className='topic-category'>BROWSE BY CATEGORY</h2>
+        <h2 className='topic-category'>Browse By Category</h2>
         <div className='main-page'>
           <NavLink to="/categories/electronics" ><h2 className='text-center'>Electronics</h2><img className="item" src="https://images.unsplash.com/photo-1611078489935-0cb964de46d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wc3xlbnwwfHwwfHw%3D&w=1000&q=80" width={"250px"} height={"188px"} alt="electronics" /></NavLink>
           <NavLink to="/categories/jewelery" ><h2 className='text-center'>Jewelery</h2><a href=''><img className="item" src="https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z29sZCUyMGpld2VsbGVyeXxlbnwwfHwwfHw%3D&w=1000&q=80" width={"250px"} height={"188px"} alt="jewelery" /></a></NavLink>
@@ -23,7 +23,7 @@ function Home() {
 
 
       <div className='Featured_brands'>
-        <h2 className='topic-interests'>YOU MAY BE INTERESTED </h2>
+        <h2 className='topic-interests'>It Might Pique Your Interest</h2>
         <div className="main-page">
           <NavLink to="/categories/men's clothing/products/1" className=""><a href=''><img className="item" src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" width={"150px"} height={"110px"} alt="" /><h4 className='text-center mt-3 text-primary'>Backpack</h4></a></NavLink>
           <NavLink to="/categories/jewelery/products/7" ><a href=''><img className="item" src="https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg" width={"150px"} height={"110px"} alt="" /><h4 className='text-center mt-3 text-primary'>Gold Plated Princess</h4></a></NavLink>
