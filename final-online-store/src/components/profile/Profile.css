@@ -35,3 +35,21 @@
     background-color: #fff;
     color: #333;
 }
+
+.profile-data {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    border: 0.1rem solid #333;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem #888888;
+    line-height: 2.5rem;
+}
+
+.profile-data img {
+    width: 20rem;
+    border: 0.3rem ridge #333;
+    margin-bottom: 1rem;
+}
